@@ -17,10 +17,12 @@ struct MessagesView: View {
         .init(text: "The End.", color: .purple),
     ]
     var body: some View {
-        ForEach(messages) {dataItem in
-            TextView(
-                text: dataItem.text,
-                color: dataItem.color)
+        VStack (alignment: .leading){
+            ForEach(messages) {dataItem in
+                TextView(
+                    text: dataItem.text,
+                    color: dataItem.color)
+            }
         }
     }
 }

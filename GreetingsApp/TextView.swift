@@ -36,9 +36,7 @@ struct TextView: View {
             .shadow(color: color, radius: 5, x: 10.0, y: 10.0)
             .onTapGesture {
 //                Randomly change color
-                withAnimation{
-                    color = colors.randomElement() ?? .white
-                }
+                color = colors.randomElement() ?? .white
                 
             }
     }
