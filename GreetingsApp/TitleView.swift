@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/// This is the title view of the app which  display:
+/// A title, a subtitle, which randomly changes on tap
+/// and we havecolorful dish which rotates on tap and
+/// that is amazing.
 struct TitleView: View {
     
     let lineWidth: CGFloat = 15.0

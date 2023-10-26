@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// This is the backgraund view which contains a liner gradient.
 struct BackgraundView: View {
     var body: some View {
         LinearGradient(colors: [.myBlue1, .myBlue2,], startPoint: .topLeading, endPoint: .bottomTrailing)
