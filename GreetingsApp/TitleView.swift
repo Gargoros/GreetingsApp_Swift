@@ -15,15 +15,15 @@ struct TitleView: View {
     
     let lineWidth: CGFloat = 15.0
     let diameter: CGFloat = 70.0
-    @State private var subTitle: String = "Learning iOS programming \nto create iOS apps"
-    let subTitles: Array<String> = [
-        "Learning iOS programming \nto create iOS apps",
-        "Learning to write programs \nstretches your mind.",
-        "I learned the fundamentals \nfor programming!",
-        "I could not have gotten this \nfar without the support.",
-        "I came in with near zero \nprogramming knowledge.",
-        "When you throw yourself \nout there great things happen.",
-        "Coding is the language \nof the future."
+    @State private var subTitle: LocalizedStringKey = LocalizedStringKey("Learning iOS programming \nto create iOS apps")
+    let subTitles: Array<LocalizedStringKey> = [
+        LocalizedStringKey("Learning iOS programming \nto create iOS apps"),
+        LocalizedStringKey("Learning to write programs \nstretches your mind."),
+        LocalizedStringKey("I learned the fundamentals \nfor programming!"),
+        LocalizedStringKey("I could not have gotten this \nfar without the support."),
+        LocalizedStringKey("I came in with near zero \nprogramming knowledge."),
+        LocalizedStringKey("When you throw yourself \nout there great things happen."),
+        LocalizedStringKey("Coding is the language \nof the future.")
     ]
     
     @State private var isRotated: Bool = false
@@ -40,7 +40,7 @@ struct TitleView: View {
     var body: some View {
         HStack {
             VStack (alignment: .leading, spacing: 8){
-                Text("Greeting in SwiftUI App")
+                Text(LocalizedStringKey("Greeting in SwiftUI App"))
                     .font(.title)
                     .fontWeight(.semibold);
                 Text(subTitle)
