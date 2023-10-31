@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1228E52AF140910018F98F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1228E42AF140910018F98F /* Localizable.xcstrings */; };
 		8C2081CA2AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */; };
-		8C249AE42AEAEE2100983658 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C249AE62AEAEE2100983658 /* Localizable.strings */; };
 		8C5DED5B2AE8634100371B92 /* GreetingsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */; };
 		8C5DED5D2AE8634100371B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5C2AE8634100371B92 /* ContentView.swift */; };
 		8C5DED5F2AE8634200371B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DED5E2AE8634200371B92 /* Assets.xcassets */; };
@@ -22,9 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C1228E42AF140910018F98F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreetingsAppIconLaunchScreen.png; sourceTree = "<group>"; };
-		8C249AE52AEAEE2100983658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8C249AE72AEAF05200983658 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8C5DED572AE8634100371B92 /* GreetingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsAppApp.swift; sourceTree = "<group>"; };
 		8C5DED5C2AE8634100371B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +70,7 @@
 			children = (
 				8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */,
 				8C5DED5C2AE8634100371B92 /* ContentView.swift */,
-				8C249AE62AEAEE2100983658 /* Localizable.strings */,
+				8C1228E42AF140910018F98F /* Localizable.xcstrings */,
 				8CEBA09D2AE96450006127F0 /* BackgraundView.swift */,
 				8CEBA09B2AE962BC006127F0 /* MessagesView.swift */,
 				8CEBA0992AE96249006127F0 /* TitleView.swift */,
@@ -137,6 +136,7 @@
 				en,
 				Base,
 				ru,
+				"be-BY",
 			);
 			mainGroup = 8C5DED4E2AE8634100371B92;
 			productRefGroup = 8C5DED582AE8634100371B92 /* Products */;
@@ -153,8 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C249AE42AEAEE2100983658 /* Localizable.strings in Resources */,
 				8C2081CA2AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png in Resources */,
+				8C1228E52AF140910018F98F /* Localizable.xcstrings in Resources */,
 				8CEBA0A82AEAD958006127F0 /* Launch Screen.storyboard in Resources */,
 				8C5DED632AE8634200371B92 /* Preview Assets.xcassets in Resources */,
 				8C5DED5F2AE8634200371B92 /* Assets.xcassets in Resources */,
@@ -179,18 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8C249AE62AEAEE2100983658 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C249AE52AEAEE2100983658 /* en */,
-				8C249AE72AEAF05200983658 /* ru */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8C5DED642AE8634200371B92 /* Debug */ = {

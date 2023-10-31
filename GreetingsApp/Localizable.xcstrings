@@ -1,0 +1,230 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Are you ready to," : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ці гатовыя вы да,"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готовы ли вы к,"
+          }
+        }
+      }
+    },
+    "boom." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бум."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "бум."
+          }
+        }
+      }
+    },
+    "Coding is the language \nof the future." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кадаванне-гэта мова\nбудучыня."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кодирование - это язык\nбудущего."
+          }
+        }
+      }
+    },
+    "Greeting in SwiftUI App" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прывітанне ў дадатку Swift UI"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приветствие в приложении Swift UI"
+          }
+        }
+      }
+    },
+    "Hello there!" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прывітанне!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привет!"
+          }
+        }
+      }
+    },
+    "I came in with near zero \nprogramming knowledge." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я прыйшоў сюды амаль з нулявымі\nведы ў галіне праграмавання."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я пришел сюда почти с нулевыми\nзнаниями в области программирования."
+          }
+        }
+      }
+    },
+    "I could not have gotten this \nfar without the support." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я б не змог зайсці так\nдалёка без вашай падтрымкі."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я бы не смог зайти так\nдалеко без вашей поддержки."
+          }
+        }
+      }
+    },
+    "I learned the fundamentals \nfor programming!" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я вывучыў асновы\nпраграмавання!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я изучил основы\nпрограммирования!"
+          }
+        }
+      }
+    },
+    "Learning iOS programming \nto create iOS apps" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вывучэнне праграмавання на iOS\nдля стварэння прыкладанняў на iOS"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изучение программирования на iOS\nдля создания приложений на iOS"
+          }
+        }
+      }
+    },
+    "Learning to write programs \nstretches your mind." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навучанне напісання праграм\nрасцягвае ваш розум."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обучение написанию программ\nрастягивает ваш разум."
+          }
+        }
+      }
+    },
+    "strat exploring?" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "пачаць даследаваць?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "начать исследовать?"
+          }
+        }
+      }
+    },
+    "The End." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "канец."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "конец."
+          }
+        }
+      }
+    },
+    "Welcome to Swift" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сардэчна запрашаем у Swift"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добро пожаловать в Swift"
+          }
+        }
+      }
+    },
+    "When you throw yourself \nout there great things happen." : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калі ты кідаешся\nтуды, адбываюцца вялікія рэчы."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда ты бросаешься\nтуда, происходят великие вещи."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
