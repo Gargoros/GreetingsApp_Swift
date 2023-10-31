@@ -13,6 +13,8 @@
 		8C1228ED2AF1536C0018F98F /* RotatableCirculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228EC2AF1536C0018F98F /* RotatableCirculeView.swift */; };
 		8C1228EF2AF155450018F98F /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228EE2AF155450018F98F /* VerticalTitleView.swift */; };
 		8C1228F12AF157870018F98F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228F02AF157870018F98F /* MainView.swift */; };
+		8C1228F32AF181320018F98F /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228F22AF181320018F98F /* LanguageOptionsView.swift */; };
+		8C1228F52AF181C30018F98F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228F42AF181C30018F98F /* Constants.swift */; };
 		8C2081CA2AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */; };
 		8C5DED5B2AE8634100371B92 /* GreetingsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */; };
 		8C5DED5D2AE8634100371B92 /* PortraitModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5C2AE8634100371B92 /* PortraitModeView.swift */; };
@@ -33,6 +35,8 @@
 		8C1228EC2AF1536C0018F98F /* RotatableCirculeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCirculeView.swift; sourceTree = "<group>"; };
 		8C1228EE2AF155450018F98F /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		8C1228F02AF157870018F98F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8C1228F22AF181320018F98F /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		8C1228F42AF181C30018F98F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreetingsAppIconLaunchScreen.png; sourceTree = "<group>"; };
 		8C5DED572AE8634100371B92 /* GreetingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsAppApp.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 		8C1228E72AF14D150018F98F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8C1228E82AF14EA30018F98F /* LandscapeModeView.swift */,
+				8C1228F22AF181320018F98F /* LanguageOptionsView.swift */,
 				8C1228F02AF157870018F98F /* MainView.swift */,
 				8CEBA0952AE951D8006127F0 /* TextView.swift */,
 				8CEBA0992AE96249006127F0 /* TitleView.swift */,
@@ -86,7 +92,6 @@
 		8C5DED4E2AE8634100371B92 = {
 			isa = PBXGroup;
 			children = (
-				8C1228E82AF14EA30018F98F /* LandscapeModeView.swift */,
 				8C5DED592AE8634100371B92 /* GreetingsApp */,
 				8C5DED582AE8634100371B92 /* Products */,
 			);
@@ -106,6 +111,7 @@
 				8C1228E72AF14D150018F98F /* Views */,
 				8C1228E62AF14CBF0018F98F /* Models */,
 				8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */,
+				8C1228F42AF181C30018F98F /* Constants.swift */,
 				8C1228E42AF140910018F98F /* Localizable.xcstrings */,
 				8C5DED5E2AE8634200371B92 /* Assets.xcassets */,
 				8CEBA0A72AEAD958006127F0 /* Launch Screen.storyboard */,
@@ -208,7 +214,9 @@
 				8CEBA09C2AE962BC006127F0 /* MessagesView.swift in Sources */,
 				8C5DED5D2AE8634100371B92 /* PortraitModeView.swift in Sources */,
 				8C1228E92AF14EA30018F98F /* LandscapeModeView.swift in Sources */,
+				8C1228F32AF181320018F98F /* LanguageOptionsView.swift in Sources */,
 				8C5DED5B2AE8634100371B92 /* GreetingsAppApp.swift in Sources */,
+				8C1228F52AF181C30018F98F /* Constants.swift in Sources */,
 				8C1228EF2AF155450018F98F /* VerticalTitleView.swift in Sources */,
 				8CEBA09A2AE96249006127F0 /* TitleView.swift in Sources */,
 			);

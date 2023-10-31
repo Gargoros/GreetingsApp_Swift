@@ -17,6 +17,22 @@
         }
       }
     },
+    "Belarusian" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Беларускі"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Белорусский"
+          }
+        }
+      }
+    },
     "boom." : {
       "localizations" : {
         "be-BY" : {
@@ -45,6 +61,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Кодирование - это язык\nбудущего."
+          }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Англійскі"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Английский"
           }
         }
       }
@@ -157,6 +189,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обучение написанию программ\nрастягивает ваш разум."
+          }
+        }
+      }
+    },
+    "Russian" : {
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рускі"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
           }
         }
       }
