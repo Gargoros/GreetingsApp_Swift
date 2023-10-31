@@ -15,9 +15,10 @@ struct PortraitModeView: View {
             VStack (alignment: .leading, spacing: 10){
                 TitleView()
                 Spacer()
+                Spacer()
                 MessagesView()
-                Spacer()
-                Spacer()
+//                Spacer()
+//                Spacer()
             }
             .padding()
         }

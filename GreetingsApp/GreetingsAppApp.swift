@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 
 
@@ -26,6 +27,13 @@ struct GreetingsAppApp: App {
             MainView(language: $language, layoutDirectionString: $layoutDirectionString)
                 .environment(\.locale, Locale(identifier: language))
                 .environment(\.layoutDirection, layoutDirection)
+                .task {
+                    try? Tips.resetDatastore()
+                    try? Tips.configure([
+                        .displayFrequency(.immediate),
+                        .datastoreLocation(.applicationDefault)
+                    ])
+                }
         }
     }
 }

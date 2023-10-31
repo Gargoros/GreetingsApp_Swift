@@ -49,6 +49,9 @@
         }
       }
     },
+    "Click on text and disc" : {
+
+    },
     "Coding is the language \nof the future." : {
       "localizations" : {
         "be-BY" : {
@@ -224,6 +227,9 @@
           }
         }
       }
+    },
+    "Text will be randomly generated and observe nice animations!" : {
+
     },
     "The End." : {
       "localizations" : {
