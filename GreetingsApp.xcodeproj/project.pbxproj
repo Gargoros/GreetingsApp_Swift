@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8C1228E52AF140910018F98F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1228E42AF140910018F98F /* Localizable.xcstrings */; };
+		8C1228E92AF14EA30018F98F /* LandscapeModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228E82AF14EA30018F98F /* LandscapeModeView.swift */; };
+		8C1228EB2AF150E80018F98F /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228EA2AF150E80018F98F /* GreetingsTextView.swift */; };
+		8C1228ED2AF1536C0018F98F /* RotatableCirculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228EC2AF1536C0018F98F /* RotatableCirculeView.swift */; };
+		8C1228EF2AF155450018F98F /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228EE2AF155450018F98F /* VerticalTitleView.swift */; };
+		8C1228F12AF157870018F98F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1228F02AF157870018F98F /* MainView.swift */; };
 		8C2081CA2AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */; };
 		8C5DED5B2AE8634100371B92 /* GreetingsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */; };
-		8C5DED5D2AE8634100371B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5C2AE8634100371B92 /* ContentView.swift */; };
+		8C5DED5D2AE8634100371B92 /* PortraitModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DED5C2AE8634100371B92 /* PortraitModeView.swift */; };
 		8C5DED5F2AE8634200371B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DED5E2AE8634200371B92 /* Assets.xcassets */; };
 		8C5DED632AE8634200371B92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DED622AE8634200371B92 /* Preview Assets.xcassets */; };
 		8CEBA0962AE951D8006127F0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA0952AE951D8006127F0 /* TextView.swift */; };
@@ -23,10 +28,15 @@
 
 /* Begin PBXFileReference section */
 		8C1228E42AF140910018F98F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8C1228E82AF14EA30018F98F /* LandscapeModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModeView.swift; sourceTree = "<group>"; };
+		8C1228EA2AF150E80018F98F /* GreetingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTextView.swift; sourceTree = "<group>"; };
+		8C1228EC2AF1536C0018F98F /* RotatableCirculeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCirculeView.swift; sourceTree = "<group>"; };
+		8C1228EE2AF155450018F98F /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
+		8C1228F02AF157870018F98F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreetingsAppIconLaunchScreen.png; sourceTree = "<group>"; };
 		8C5DED572AE8634100371B92 /* GreetingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsAppApp.swift; sourceTree = "<group>"; };
-		8C5DED5C2AE8634100371B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C5DED5C2AE8634100371B92 /* PortraitModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitModeView.swift; sourceTree = "<group>"; };
 		8C5DED5E2AE8634200371B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5DED602AE8634200371B92 /* GreetingsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreetingsApp.entitlements; sourceTree = "<group>"; };
 		8C5DED622AE8634200371B92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,9 +59,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C1228E62AF14CBF0018F98F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CEBA0972AE95800006127F0 /* DataItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C1228E72AF14D150018F98F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C1228F02AF157870018F98F /* MainView.swift */,
+				8CEBA0952AE951D8006127F0 /* TextView.swift */,
+				8CEBA0992AE96249006127F0 /* TitleView.swift */,
+				8C1228EE2AF155450018F98F /* VerticalTitleView.swift */,
+				8C1228EC2AF1536C0018F98F /* RotatableCirculeView.swift */,
+				8C1228EA2AF150E80018F98F /* GreetingsTextView.swift */,
+				8CEBA09B2AE962BC006127F0 /* MessagesView.swift */,
+				8CEBA09D2AE96450006127F0 /* BackgraundView.swift */,
+				8C5DED5C2AE8634100371B92 /* PortraitModeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8C5DED4E2AE8634100371B92 = {
 			isa = PBXGroup;
 			children = (
+				8C1228E82AF14EA30018F98F /* LandscapeModeView.swift */,
 				8C5DED592AE8634100371B92 /* GreetingsApp */,
 				8C5DED582AE8634100371B92 /* Products */,
 			);
@@ -68,14 +103,10 @@
 		8C5DED592AE8634100371B92 /* GreetingsApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C1228E72AF14D150018F98F /* Views */,
+				8C1228E62AF14CBF0018F98F /* Models */,
 				8C5DED5A2AE8634100371B92 /* GreetingsAppApp.swift */,
-				8C5DED5C2AE8634100371B92 /* ContentView.swift */,
 				8C1228E42AF140910018F98F /* Localizable.xcstrings */,
-				8CEBA09D2AE96450006127F0 /* BackgraundView.swift */,
-				8CEBA09B2AE962BC006127F0 /* MessagesView.swift */,
-				8CEBA0992AE96249006127F0 /* TitleView.swift */,
-				8CEBA0972AE95800006127F0 /* DataItemModel.swift */,
-				8CEBA0952AE951D8006127F0 /* TextView.swift */,
 				8C5DED5E2AE8634200371B92 /* Assets.xcassets */,
 				8CEBA0A72AEAD958006127F0 /* Launch Screen.storyboard */,
 				8C2081C92AEADAFA003A96BD /* GreetingsAppIconLaunchScreen.png */,
@@ -169,11 +200,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CEBA09E2AE96450006127F0 /* BackgraundView.swift in Sources */,
+				8C1228F12AF157870018F98F /* MainView.swift in Sources */,
+				8C1228ED2AF1536C0018F98F /* RotatableCirculeView.swift in Sources */,
 				8CEBA0982AE95800006127F0 /* DataItemModel.swift in Sources */,
+				8C1228EB2AF150E80018F98F /* GreetingsTextView.swift in Sources */,
 				8CEBA0962AE951D8006127F0 /* TextView.swift in Sources */,
 				8CEBA09C2AE962BC006127F0 /* MessagesView.swift in Sources */,
-				8C5DED5D2AE8634100371B92 /* ContentView.swift in Sources */,
+				8C5DED5D2AE8634100371B92 /* PortraitModeView.swift in Sources */,
+				8C1228E92AF14EA30018F98F /* LandscapeModeView.swift in Sources */,
 				8C5DED5B2AE8634100371B92 /* GreetingsAppApp.swift in Sources */,
+				8C1228EF2AF155450018F98F /* VerticalTitleView.swift in Sources */,
 				8CEBA09A2AE96249006127F0 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,8 +353,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -356,8 +391,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

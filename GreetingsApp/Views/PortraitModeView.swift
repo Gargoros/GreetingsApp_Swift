@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PortraitModeView: View {
     
     var body: some View {
         ZStack {
@@ -25,5 +25,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    PortraitModeView()
 }

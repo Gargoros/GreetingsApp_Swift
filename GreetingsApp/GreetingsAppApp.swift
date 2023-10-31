@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
+
 @main
 struct GreetingsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
