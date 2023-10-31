@@ -164,6 +164,9 @@
         }
       }
     },
+    "iOS APP" : {
+
+    },
     "Learning iOS programming \nto create iOS apps" : {
       "localizations" : {
         "be-BY" : {
@@ -195,6 +198,9 @@
           }
         }
       }
+    },
+    "MAC APP" : {
+
     },
     "Russian" : {
       "localizations" : {

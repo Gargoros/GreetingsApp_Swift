@@ -23,10 +23,21 @@ struct GreetingsTextView: View {
         VStack (alignment: .leading, spacing: 8){
             Text(LocalizedStringKey("Greeting in SwiftUI App"))
                 .font(.title)
-                .fontWeight(.semibold);
+                .fontWeight(.semibold)
+#if os(macOS)
+            Text(subTitle)
+                .font(.title)
+#elseif os(iOS)
             Text(subTitle)
                 .font(.subheadline)
                 .fontWeight(.thin)
+#endif
+#if os (macOS)
+Text ("MAC APP" )
+#elseif os(iOS)
+Text ("iOS APP")
+#endif
+        }
                 .onTapGesture {
 //                        Change caption (subTitle)
                     withAnimation{
@@ -35,7 +46,7 @@ struct GreetingsTextView: View {
                 }
         }
     }
-}
+
 
 #Preview {
     GreetingsTextView(subTitle: .constant("Learning iOS programming \nto create iOS apps"))
