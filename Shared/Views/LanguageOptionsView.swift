@@ -1,9 +1,3 @@
-//
-//  LanguageOptionsView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 31.10.23.
-//
 
 import SwiftUI
 
@@ -32,8 +26,4 @@ struct LanguageOptionsView: View {
                 .foregroundColor(.black)
         }
     }
-}
-
-#Preview {
-    LanguageOptionsView(language: .constant("en"), layoutDirectionString: .constant(LEFT_TO_RIGHT))
 }

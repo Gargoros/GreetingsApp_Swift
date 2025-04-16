@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 24.10.23.
-//
 
 import SwiftUI
 
@@ -17,14 +11,8 @@ struct PortraitModeView: View {
                 Spacer()
                 Spacer()
                 MessagesView()
-//                Spacer()
-//                Spacer()
             }
             .padding()
         }
     }
-}
-
-#Preview {
-    PortraitModeView()
 }

@@ -1,9 +1,3 @@
-//
-//  MainView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 31.10.23.
-//
 
 import SwiftUI
 
@@ -35,7 +29,6 @@ struct MainView: View {
                         }
                     }
             }
-            
         } else {
             NavigationStack{
                 LandscapeModeView()
@@ -45,12 +38,6 @@ struct MainView: View {
                         }
                     }
             }
-            
         }
-
     }
-}
-
-#Preview {
-    MainView(language: .constant("en"), layoutDirectionString: .constant(LEFT_TO_RIGHT))
 }

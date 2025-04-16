@@ -1,9 +1,3 @@
-//
-//  GreetingsTip.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 31.10.23.
-//
 
 import Foundation
 import TipKit

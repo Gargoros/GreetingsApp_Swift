@@ -1,9 +1,3 @@
-//
-//  LandscapeModeView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 31.10.23.
-//
 
 import SwiftUI
 
@@ -19,8 +13,4 @@ struct LandscapeModeView: View {
             .padding(.horizontal)
         }
     }
-}
-
-#Preview {
-    LandscapeModeView()
 }

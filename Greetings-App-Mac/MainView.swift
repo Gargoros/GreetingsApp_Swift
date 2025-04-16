@@ -1,9 +1,3 @@
-//
-//  MainView.swift
-//  Greetings-App-Mac
-//
-//  Created by MIKHAIL ZHACHKO on 1.11.23.
-//
 
 import SwiftUI
 
@@ -28,8 +22,4 @@ struct MainView: View {
                 }
         }
     }
-}
-
-#Preview {
-    MainView(language: .constant("en"), layoutDirectionString: .constant(LEFT_TO_RIGHT))
 }

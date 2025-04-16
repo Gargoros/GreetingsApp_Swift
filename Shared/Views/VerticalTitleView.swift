@@ -1,9 +1,3 @@
-//
-//  VerticalTitleView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 31.10.23.
-//
 
 import SwiftUI
 
@@ -18,8 +12,4 @@ struct VerticalTitleView: View {
             Spacer()
         }.padding()
     }
-}
-
-#Preview {
-    VerticalTitleView()
 }

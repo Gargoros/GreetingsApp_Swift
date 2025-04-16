@@ -1,9 +1,3 @@
-//
-//  DataItemModel.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 25.10.23.
-//
 
 import SwiftUI
 

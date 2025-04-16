@@ -1,9 +1,3 @@
-//
-//  TextView.swift
-//  GreetingsApp
-//
-//  Created by MIKHAIL ZHACHKO on 25.10.23.
-//
 
 import SwiftUI
 
@@ -34,11 +28,11 @@ struct TextView: View {
     ]
     
     var font: Font {
-        #if os(macOS)
+#if os(macOS)
         .title
-        #elseif os(iOS)
+#elseif os(iOS)
         isIPad ? .largeTitle : .body
-        #endif
+#endif
     }
     
     var body: some View {
@@ -51,18 +45,9 @@ struct TextView: View {
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             .shadow(color: color, radius: 5, x: 10.0, y: 10.0)
             .onTapGesture {
-//                Randomly change color
+                //                Randomly change color
                 color = colors.randomElement() ?? .white
                 
             }
-    }
-}
-
-#Preview {
-    VStack {
-        TextView(text: "text-text", color: .green)
-        TextView(text: "text-text", color: .orange)
-        TextView(text: "text-text", color: .yellow)
-        TextView(text: "text-text", color: .red)
     }
 }

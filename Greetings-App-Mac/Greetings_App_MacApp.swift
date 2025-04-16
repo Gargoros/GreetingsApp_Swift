@@ -1,13 +1,6 @@
-//
-//  Greetings_App_MacApp.swift
-//  Greetings-App-Mac
-//
-//  Created by MIKHAIL ZHACHKO on 1.11.23.
-//
+
 import SwiftUI
 import TipKit
-
-
 
 @main
 struct Greetings_App_MacApp: App {
@@ -15,7 +8,6 @@ struct Greetings_App_MacApp: App {
     @AppStorage("language") var language: String = "en"
     @AppStorage("layoutDirectionString") var layoutDirectionString: String = LEFT_TO_RIGHT
 
-    
     var layoutDirection: LayoutDirection {
         layoutDirectionString == LEFT_TO_RIGHT ? .leftToRight : .rightToLeft
     }

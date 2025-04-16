@@ -50,7 +50,20 @@
       }
     },
     "Click on text and disc" : {
-
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Націсніце на тэкст і абмеркаванне"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажмите на текст и обсуждение"
+          }
+        }
+      }
     },
     "Coding is the language \nof the future." : {
       "localizations" : {
@@ -165,7 +178,20 @@
       }
     },
     "iOS APP" : {
-
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IOS APP"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IOS APP"
+          }
+        }
+      }
     },
     "Learning iOS programming \nto create iOS apps" : {
       "localizations" : {
@@ -200,7 +226,20 @@
       }
     },
     "MAC APP" : {
-
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MAC APP"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MAC APP"
+          }
+        }
+      }
     },
     "Russian" : {
       "localizations" : {
@@ -235,7 +274,20 @@
       }
     },
     "Text will be randomly generated and observe nice animations!" : {
-
+      "localizations" : {
+        "be-BY" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тэкст будзе генеравацца выпадковым чынам і суправаджацца прыемнай анімацыяй!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст будет генерироваться случайным образом и сопровождаться приятной анимацией!"
+          }
+        }
+      }
     },
     "The End." : {
       "localizations" : {
