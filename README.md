@@ -28,3 +28,18 @@ A simple iOS app created using SwiftUI supported by iPhone, iPad, Mac (iOS and M
   width="200"
   height="300"
 />
+
+<p align="center">
+  <img
+    src="./GreetingsApp_Swift/Screenshots/GreetingAppRef/Simulator%20Screenshot%20-%2015%20Pro%20Max%20-%202025-04-16%20at%2017.49.29.png"
+    alt="Simulator Screenshot"
+    width="200"
+    height="300"
+  />
+</p>
+
+<video width="200" height="300" controls>
+  <source src="./GreetingsApp_Swift/Screenshots/GreetingAppRef/Simulator%20Screen%20Recording%20-%2015%20Pro%20Max%20-%202025-04-16%20at%2017.49.19.mp4"
+          type="video/mp4">
+  Your browser does not support the video tag.
+</video>
