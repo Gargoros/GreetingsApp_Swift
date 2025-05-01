@@ -21,3 +21,10 @@ A simple iOS app created using SwiftUI supported by iPhone, iPad, Mac (iOS and M
     height="300"
   />
 </p>
+
+<img
+  src="./Simulator%20Screenshot%20-%2015%20Pro%20Max%20-%202025-04-16%20at%2017.49.29.png"
+  alt="Simulator Screenshot"
+  width="200"
+  height="300"
+/>
