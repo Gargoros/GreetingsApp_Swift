@@ -5,6 +5,19 @@ A simple iOS app created using SwiftUI supported by iPhone, iPad, Mac (iOS and M
 ![Image](https://github.com/user-attachments/assets/42f10efd-efd7-4c5a-98a2-93bd7b918744)
 ![Image](https://github.com/user-attachments/assets/66b0acf7-3cee-47e2-abde-130eb95f2209)
 
-<img src="./Screenshots/GreetingsApp_Swift/Screenshots/GreetingAppRef/Simulator Screenshot - 15 Pro Max - 2025-04-16 at 17.49.29.png" width="128"/>
-<img src="Screenshots/GreetingsApp_Swift/Screenshots/GreetingAppRef/Simulator Screenshot - 15 Pro Max - 2025-04-16 at 17.49.35.png>
+![Simulator Screenshot](./simulator-15promax.png){width=200 height=300}
 
+<img
+  src="./Simulator Screenshot - 15 Pro Max - 2025-04-16 at 17.49.29.png"
+  alt="Simulator Screenshot"
+  style="width:200px; height:300px;"
+/>
+
+<p align="center">
+  <img
+    src="./Simulator Screenshot - 15 Pro Max - 2025-04-16 at 17.49.29.png"
+    alt="Simulator Screenshot"
+    width="200"
+    height="300"
+  />
+</p>
