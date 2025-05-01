@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -78,6 +78,10 @@
 		8CEBA09D2AE96450006127F0 /* BackgraundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgraundView.swift; sourceTree = "<group>"; };
 		8CEBA0A72AEAD958006127F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8CE50ABF2DC360BF00AE9E0F /* Screenshots */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screenshots; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C1228FE2AF1A3320018F98F /* Frameworks */ = {
@@ -170,6 +174,7 @@
 				8C5DED592AE8634100371B92 /* GreetingsApp */,
 				8C1229022AF1A3320018F98F /* Greetings-App-Mac */,
 				8C5DED582AE8634100371B92 /* Products */,
+				8CE50ABF2DC360BF00AE9E0F /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
